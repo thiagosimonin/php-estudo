@@ -1,3 +1,5 @@
-<?php echo 'Ola Mundo'; ?>
+<?php echo 'Ola Mundo'; 
 
 // olá mundo em php
+
+?>
