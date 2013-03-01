@@ -1,5 +1,5 @@
 <?php
-
+header('Content-Type: text/html; charset=utf-8');
 $nome = 'Thiago Simonin';
 
 
@@ -8,7 +8,7 @@ $nome = 'Thiago Simonin';
 
 $sigfried = <<<QQC
 Exemplo de variável definida pela sintax heredoc<br/>
-É possível expandir variáveis: $nome;
+É possível expandir variáveis: $nome
 QQC;
 
 echo $sigfried;
